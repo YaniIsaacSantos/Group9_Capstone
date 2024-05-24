@@ -3,10 +3,33 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/profile_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/profile_activity"
         android:textSize="24sp"
-        android:layout_centerInParent="true" />
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_label"
+        android:textSize="18sp"
+        android:layout_below="@id/profile_heading"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_label"
+        android:textSize="18sp"
+        android:layout_below="@id/name_text"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
 
 </RelativeLayout>

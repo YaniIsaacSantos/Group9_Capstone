@@ -3,11 +3,72 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/menu_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/main_menu"
+        android:text="@string/menu"
         android:textSize="24sp"
-        android:layout_centerInParent="true" />
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true" />
 
+    <ImageView
+        android:id="@+id/burger_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/burger"
+        android:layout_below="@id/menu_heading"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/burger_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/burger_label"
+        android:textSize="18sp"
+        android:layout_below="@id/burger_image"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/fries_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/fries"
+        android:layout_below="@id/burger_text"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/fries_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fries_label"
+        android:textSize="18sp"
+        android:layout_below="@id/fries_image"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/drink_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/drink"
+        android:layout_below="@id/fries_text"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/drink_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/drink_label"
+        android:textSize="18sp"
+        android:layout_below="@id/drink_image"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

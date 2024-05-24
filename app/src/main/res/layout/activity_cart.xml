@@ -3,9 +3,33 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/cart_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cart_activity"
         android:textSize="24sp"
-        android:layout_centerInParent="true" />
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/burger_cart_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/burger_cart_item"
+        android:textSize="18sp"
+        android:layout_below="@id/cart_heading"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/fries_cart_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fries_cart_item"
+        android:textSize="18sp"
+        android:layout_below="@id/burger_cart_text"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
 </RelativeLayout>
