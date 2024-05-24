@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QuickBitez</string>
+    <string name="menu">Menu</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="cart_activity">Cart</string>
+    <string name="profile_activity">Profile</string>
+    <string name="burger_label">Burger</string>
+    <string name="burger_amount">Burger x2</string>
+    <string name="fries_label">Fries</string>
+    <string name="fries_amount">Fries x1</string>
+    <string name="coke_label">Coca-cola</string>
+
+
+</resources>
